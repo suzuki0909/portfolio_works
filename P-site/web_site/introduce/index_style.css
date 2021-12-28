@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/*=====================
+共通設定
+=======================*/
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: .6;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+body {
+    font-family: "ヒラギノ丸ゴ　Pro W4","Hiragino Maru Gothic Pro", sans-serif;
+    background-image: url(img/fruit.png);
+    background-size: 100;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    color: rgb(85, 81, 82);
+}
+
+/*=====================
+header
+=======================*/
+header{
+    text-align: center;
+    padding-top: 5px;
+    background-color: #fff;
+}
+
+/*navi*/
+nav{
+    background-color: #e7607d;
+}
+
+.gnavi__list{
+	display: flex;
+	flex-flow: row;
+    justify-content: center;
+	padding: auto;
+	list-style-type: none;
+}
+
+.gnavi__item{
+    flex: 1 1 100px;
+    border: 1px solid #fff;
+}
+
+.gnavi__item:first-child {
+    border-left: none;
+}
+/*.gnavi__item + .gnavi__item {
+    border-left: 1px solid #fff;
+}*/
+
+nav{
+    text-align: center;
+}
+
+.gnavi__link{
+    display: block;
+    color: #fff;
+    padding: 0.5em 0;
+}
+
+.gnavi__link:hover {
+    opacity: 1;
+    background-color: #f29faf;
+}
+
+/*=====================
+body
+=======================*/
+.profile{
+    border-style: solid;
+    border-color: #f39c60;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+.message{
+    border-style: solid;
+    border-color: #f39c60;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin-top: 2em;
+}
+
+main{
+    width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 2em;
+}
+
+footer{
+    background-color: #dde896;
+    text-align: center;
+    height: 80px;
+}
+
+section{
+    padding: 2em;
+    padding-top: 1em;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.profile2{
+    width: suto;
+    display: flex;
+}
+
+.profile3{
+    width: suto;
+    display: flex;
+}
+
+.australia{
+margin-right: 2em;
+margin-bottom: 2em;
+}
+
+.child{
+    margin-top: 2em;
+    margin-right: 2em;
+}

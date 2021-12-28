@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/*=====================
+共通設定
+=======================*/
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: .6;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body {
+    font-family: "ヒラギノ丸ゴ　Pro W4","Hiragino Maru Gothic Pro", sans-serif;
+    color: rgb(85, 81, 82);
+}
+
+
+
+/*=====================
+header
+=======================*/
+header{
+    text-align: center;
+    padding-top: 5px;
+    background-color: #fff;
+}
+
+/*navi*/
+.gnavi{
+    background-color: #e7607d;
+}
+
+.gnavi__list{
+	display: flex;
+	flex-flow: row;
+    justify-content: center;
+	padding: auto;
+	list-style-type: none;
+}
+
+.gnavi__item{
+    flex: 1 1 100px;
+    border: 1px solid #fff;
+}
+
+.gnavi__item:first-child {
+    border-left: none;
+}
+/*.gnavi__item + .gnavi__item {
+    border-left: 1px solid #fff;
+}*/
+
+nav{
+    text-align: center;
+}
+
+.gnavi__link{
+    display: block;
+    color: #fff;
+    padding: 0.5em 0;
+}
+
+.gnavi__link:hover {
+    opacity: 1;
+    background-color: #f29faf;
+}
+
+/*=====================
+body
+=======================*/
+main{
+    width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 2em;
+}
+
+footer{
+    text-align: center;
+    padding-top: 5em;
+}
+
+section{
+    padding: 2em;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #f39c60;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 2em;
+    padding-top: 1em;
+    overflow: hidden;
+    text-align: center;
+    text-justify: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+ol{
+    text-align: center;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.left{
+    display: flex;
+}
+
+.right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sweets{
+    margin: 4em 2em;
+}
+
+.sweet_title{
+    margin-bottom: 2em;
+}
+
+.float{
+    float: left;
+    margin: 1em 1.5em;
+}
+
+.first{
+    margin-top: 3em;
+}

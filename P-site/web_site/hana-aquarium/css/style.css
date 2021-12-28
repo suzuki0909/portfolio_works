@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+/* -------
+共通設定
+----------*/
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #fff;
+    background-color: #003366;
+}
+
+*{
+box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000066;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.wrapper {
+    max-width: 768px;
+    padding: 1.5em;
+    margin: 0 auto;
+}
+
+a:hover {
+    opacity: .6;
+}
+
+.content{
+    border: 4px solid #fff;
+    border-radius: 15px;
+    padding: 2em 1em;
+    margin-bottom: 2.5em;
+}
+
+h2 {
+    color: #003366;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0 0 1.5em 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+.icon {
+    height: 19px;
+    width: auto;
+    margin-right: 0.5em;
+}
+
+.sea_fish {
+    width: 300px;
+    height: auto;
+}
+
+/* -------
+header
+----------*/
+.logo {
+    height: 70px;
+    width: auto;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+header {
+    height: 200px;
+    background-color: #ccffff;
+}
+
+.gnavi {
+    display: flex;
+    justify-content: center;
+}
+
+li+li {
+    margin-left: 1em;
+}
+
+/* -------
+トップイメージ
+----------*/
+
+/* -------
+news
+----------*/
+.red {
+    color: #ff9999;
+}
+
+.news_title {
+    font-weight: bold;
+}
+
+.news_content {
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.p_content {
+    margin-bottom: 0;
+}
+
+/* -------
+friend
+----------*/
+.grid {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.grid_item {
+    margin-bottom: 1.5em;
+}
+
+.last_item {
+    margin-bottom: 0;
+}
+
+/* -------
+info
+----------*/
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 20px;
+    text-align: left;
+    margin: 1em 0 0.5em 0;
+}
+
+td {
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: right;
+    width: 10em;
+    padding: 1em;
+}
+
+th {
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    text-align: center;
+    padding: 1em;
+    width: 7em;
+}
+
+.border {
+    border-bottom: 2px solid #fff;
+}
+
+/* -------
+footer
+----------*/
+footer {
+    background-image: url(../img/F_back01.png);
+    background-repeat: repeat-x;
+    display: block;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 0;
+}
+
+.copy {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+
+
+/* -------
+PC版
+----------*/
+@media(min-width: 768px) {
+    .wrapper {
+        max-width:1100px;
+        margin: 0 auto;
+    }
+
+    header{
+        height: 68px;
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        margin: 0;
+    }
+
+    .logo {
+        height: auto;
+        width: 300px;
+    }
+
+    section{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .grid {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sea_fish{
+        width: 90%;
+        height: auto;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    .big_bg {
+        height: 772px;
+        width: auto;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+
+
+}

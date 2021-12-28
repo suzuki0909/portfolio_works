@@ -1,0 +1,302 @@
+@charset "UTF-8";
+
+/*=======
+共通設定
+==========*/
+
+html{
+    font-size: 100%;
+}
+
+
+.big_bg_vineyard{
+        background-image: url(img/trentino.jpg);
+        background-attachment: fixed;
+        height: 300px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #7E1E6B;
+    font-size: 13px;
+}
+
+a:hover{
+    opacity: .4;
+}
+
+.top_line{
+    height: 0.5em;
+    background-color: #7E1E6B;
+}
+
+li{
+    list-style-type: none;
+    font-size: 14px;
+    margin:0.5em 0;
+    box-sizing: border-box;
+    padding-left:1em;
+    padding-right: 1em;
+}
+
+.wrapper{
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 2em 1.5em;
+    text-align: center;
+    background-color: rgba(255,255,255,.9);
+    border-radius: 5px;
+}
+
+p{
+    font-size: 12px;
+}
+
+/*=======
+header
+=========*/
+header{
+    background-color: #fff;
+}
+
+.gnavi{
+    display: flex;
+    justify-content: center
+}
+
+.gnavi_item+.gnavi_item{
+    border-left: 1px solid #7E1E6B;
+}
+
+.big_bg{
+    background-image: url(img/hero.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 2em;
+    height: 400px;
+    padding-top: 100px;
+}
+
+.title_content{
+    color: #fff;
+    background-color: rgba(90,27,132,.9);
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5em 2em;
+    border-radius: 12px;
+}
+
+h3{
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
+p{
+    font-size: 14px;
+}
+
+
+/*=======
+ワイングラス
+==========*/
+h2{
+    margin-bottom: 0.5em;
+}
+
+p{
+    margin-bottom: 2em;
+}
+
+
+.wine_flex{
+    margin: 4em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.wine_item{
+    padding: 0.5em;
+    width: 210px;
+}
+
+span{
+    color: red;
+}
+
+.icon{
+    width: 50%;
+    height: auto;
+}
+
+/*=======
+ガイド
+==========*/
+.guide{
+    font-size: 22px;
+    color: #5A1B84;
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
+h4{
+    margin-top: 1em;
+}
+
+.guide_title{
+    color: #7B181D;
+}
+
+.flex_item{
+    margin-bottom: 2em;
+}
+
+.guide_sentense{
+    margin: 0 auto;
+    margin-bottom: 2em;
+    width: 50%;
+}
+
+
+/*=======
+おすすめ
+==========*/
+.recommend{
+    text-align: center;
+    background-color: #F5F3E3;
+}
+
+.winebotle{
+    width: 100%;
+}
+
+.google_map{
+    text-align: center;
+    width: 768px;
+    margin: 0 auto;
+}
+
+/*=======
+footer
+==========*/
+footer{
+    background-color: #EEBC1F;
+    display: block;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.last_navi{
+    display: flex;
+    justify-content: center
+}
+
+.last_item:first-child{
+    border-right: 1px solid black;
+}
+
+.back_logo{
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.back_logo{
+    margin-top: 1em;
+    background-color: #fff;
+}
+
+/*=======
+PC版
+==========*/
+@media (min-width: 768px){
+
+    header{
+        text-align: left;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    a{
+        font-size: 16px;
+    }
+
+    .wrapper{
+        max-width: 1200px;
+        margin: 2em auto;
+    }
+
+    .big_bg{
+        height: 547px;
+        padding-top: 250px;
+    }
+    .title_content{
+        width: 500px;
+        height: 150px;
+        padding: 0.5em 3em;
+    }
+
+.top_coment{
+    width: 70%;
+    margin: 0 auto;
+}
+
+    .gnavi{
+        justify-content: center;
+    }
+
+.wine_item{
+    width: 50%;
+    padding: 1em;
+}
+
+.wine_flex{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.flex_item{
+    text-align: left;
+}
+
+.flex_item:nth-child(2){
+    margin: 0 1.5em;
+}
+
+.guide_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.guide_sentense{
+    width: 100%;
+}
+
+.google_map{
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+small{
+    margin-right: 8em;
+    padding: 0.5em;
+}
+
+}
+
+
+/*=======
+共通設定
+==========*/

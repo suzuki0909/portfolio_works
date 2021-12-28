@@ -1,0 +1,422 @@
+@charset "UTF-8";
+
+
+/*===================
+共通設定
+====================*/
+
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 游ゴシック体, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, sans-serif;
+}
+
+h3{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 24px;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a span {
+    display: inline-block;
+}
+
+a:hover span {
+    transition: 1s;
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 700px;
+    ;
+    margin: 0 auto;
+    padding: 2em 7% 0 7%;
+}
+
+h1 {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*===================
+ヘッダー
+====================*/
+
+.gnavi {
+    display: flex;
+    justify-content: center;
+}
+
+.title_logo {
+    width: 250px;
+    margin: 20px 0;
+}
+
+li+li {
+    margin-left: 1.5em;
+}
+
+.menu_logo {
+    height: 20px;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+/*===================
+トップイメージ、隙間背景
+====================*/
+
+.back {
+    height: 130px;
+    background-image: url(img/back_img.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.back_works {
+    background-image: url(img/back_img.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding: 140px 0;
+}
+
+.top_img {
+    margin: 20px auto 0 auto;
+}
+
+.content_title {
+    height: 30px;
+    margin: 2em 0;
+    text-align: center;
+}
+
+
+p {
+    margin-bottom: 4em;
+}
+
+/*===================
+ページ内リンク
+Worksボタン
+====================*/
+
+.works_btn{
+    width: 100px;
+    position: fixed;
+    right: 1%;
+    bottom: -10%;
+}
+
+/*===================
+プロフィール
+====================*/
+.about_description {
+    width: 80%;
+    height: auto;
+}
+
+.profile_about {
+    margin: 100px 0;
+}
+
+.me {
+    text-align: center;
+    margin-right: 1.5em;
+}
+
+.re-da {
+    margin-left: 1.5em;
+}
+
+.personal{
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+}
+
+.profile_box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4em;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 1.5em;
+}
+
+.personal_list {
+    margin-bottom: 1em;
+}
+
+.hobby_item {
+    text-align: center;
+    width: 30%;
+    height: auto;
+}
+
+.hobby_box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*===================
+works
+====================*/
+
+.wrapper_works {
+    background-color: #fff;
+    border-radius: 12px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.works_description {
+    font-size: 14px;
+    margin-top: 1.5em;
+}
+
+.work_item,
+.design_item,
+.design_item2,
+.banner_item {
+    width: 48%;
+}
+
+.web_box,
+.design_box1,
+.design_box2,
+.design_box3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.works_link:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.works_link :hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+/*===================
+スキル
+====================*/
+.skill_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_item {
+    width: 30%;
+    text-align: center;
+}
+
+.skill_description {
+    font-size: 14px;
+}
+
+.skill_school {
+    margin-bottom: 80px;
+}
+
+/*===================
+問い合わせ
+====================*/
+input[type="text"],
+input[type="email"],
+textarea {
+    border-radius: 4px;
+    border: 2px solid rgb(88, 186, 235);
+}
+
+
+input[type="text"] {
+    width: 150px;
+    line-height: 1.5em;
+}
+
+input[type="email"] {
+    width: 250px;
+    line-height: 1.5em;
+}
+
+.form_title {
+    margin-bottom: 2em;
+}
+
+.message {
+    margin-bottom: 0;
+}
+
+textarea {
+    width: 350px;
+    height: 11em;
+}
+
+.submit {
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+/*===================
+footer
+====================*/
+
+footer {
+    display: block;
+    text-align: center;
+    height: 130px;
+    display: block;
+    padding-top: 4em;
+}
+
+/*===================
+PC版
+====================*/
+@media(min-width: 768px) {
+
+    li+li {
+        margin-left: 2em;
+    }
+
+    .works_btn{
+        width: 120px;
+        right: 4%;
+        bottom: -4%;
+    }
+    
+
+    .top_img {
+        width: 70%;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    .wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .wrapper_works {
+        max-width: 900px;
+    }
+
+    #header {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .gnavi {
+        justify-content: right;
+    }
+
+    .re-da,
+    .personal_box {
+        width: 34%;
+        height: auto;
+    }
+
+    .me {
+        width: 25%;
+    }
+
+    .profile_box {
+        align-items: center;
+    }
+
+    .personal_list {
+        font-size: 14px;
+    }
+
+    .back {
+        height: 180px;
+    }
+
+    .work_item,
+    .design_item,
+    .design_item2 {
+        width: 30%;
+    }
+
+    .skill_description {
+        font-size: 16px;
+    }
+
+    .skill_img {
+        width: 70%;
+        height: auto;
+    }
+
+    .skill_flex {
+
+        justify-content: center;
+    }
+
+    .banner_item {
+        width: 32%;
+    }
+
+    .profile_box1 {
+        width: 66%;
+        justify-content: space-between;
+    }
+
+    .personal_box{
+        width: 30%;
+    }
+
+    .me{
+        width: 75%;
+    }
+
+    .re-da{
+        width: 90%;
+    }
+
+    .profile_pc_flex{
+        display: flex;
+        justify-content: space-between
+    }
+}

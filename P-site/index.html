@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="鈴木のポートフォリオサイトです。">
+    <link rel="stylesheet" href="style.css">
+    <!-- jQueryのライトボックス -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/lightbox.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header" class="DownMove">
+            <h1><a href="index.html"><img src="logo/title_logo.svg" alt="My portfolio" class="title_logo"></a></h1>
+            <nav>
+                <ul class="gnavi">
+                    <li class="gnavi_item"><a href="#profile"><span><img src="logo/Profile.svg" alt="profile" class="menu_logo"></span></a></li>
+                    <li class="gnavi_item"><a href="#works"><span><img src="logo/work.svg" alt="work" class="menu_logo"></span></a></li>
+                    <li class="gnavi_item"><a href="#skill"><span><img src="logo/skill.svg" alt="skill" class="menu_logo"></span></a></li>
+                    <li class="gnavi_item"><a href="#contact"><span><img src="logo/contact.svg" alt="contact" class="menu_logo"></span></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="top_img">
+        <img src="img/herogif.gif" alt="" class="hero">
+    </div>
+
+    <!-- 隙間背景 -->
+    <div class="back">
+        <p class="works_btn"><a href="#works"><img src="img/profile/works_botton.png" alt="作品一覧はWorksへ"></a></p>
+    </div>
+    <!-- 隙間背景 -->
+
+    <!-- プロフ -->
+    <div class="wrapper" id="profile">
+        <h2><img src="logo/Profile.svg" alt="profile" class="content_title"></h2>
+        <h3>鈴木　理奈</h3>
+        <div class="profile_pc_flex">
+            <div class="profile_box1">
+                <div class="me">
+                    <img src="img/profile/me.png" alt="鈴木の写真" class="profile_photo">
+                </div>
+                <div class="re-da"><img src="img/profile/re-da-.png" alt="得意なものレーダー"></div>
+            </div>
+            <div class="personal_box">
+                <h3 class="personal">■好きなもの</h3>
+                <p class="personal_list">自然、ゲーム、温泉、自由、スイーツ</p>
+                <h3 class="personal">■特技</h3>
+                <p class="personal_list">人の気持ちを察する事<br>
+                    人の素敵だと思う部分を伝える事<br>
+                    何でもプラスに捉える事ができる</p>
+                <h3 class="personal">■信念</h3>
+                <p class="personal_list">一度きりしかない人生。楽しむしかない！！</p>
+        </div>
+        </div>
+        <article>
+            <p class="profile_about">
+                大阪出身。１０年ほど保育士として仕事をする。<br>
+                フリーランス時代に自分のホームページを作りたいと思い、勉強するが独学に限界を感じて挫折。<br>
+                その頃の経験から華やかなWebページを作る事、学ぶ事に憧れを抱く。<br>
+                転居を機にWebデザイン養成科に入学を果たし、寝食を忘れて没頭してしまうほどWebデザインにのめり込む。<br>
+
+                学校で日々刺激を受けながら、Web業界で仕事をしていきたいと決意を新たにする。
+            </p>
+        </article>
+
+        <h3>趣味</h3>
+        <div class="hobby_box">
+            <div class="hobby_item">
+                <img src="img/profile/finding_cat.png" alt="猫を探す" class="hobby">
+                <p>ねこ探し</p>
+            </div>
+            <div class="hobby_item">
+                <img src="img/profile/pudding.png" alt="プリンを開拓" class="hobby">
+                <p>美味しいプリンを開拓</p>
+            </div>
+            <div class="hobby_item">
+                <img src="img/profile/ukurere.png" alt="ウクレレ" class="hobby">
+                <p>ウクレレ</p>
+            </div>
+        </div>
+    </div>
+    <!-- プロフ -->
+
+    <!-- 隙間背景 -->
+    <div class="back_works">
+
+        <!-- 作品集-->
+        <div class="wrapper_works" id="works">
+            <h2><img src="logo/work.svg" alt="work" class="content_title"></h2>
+
+            <h3 class="works">Web Design　（別タブで開きます）</h3>
+            <div class="web_box">
+                <div class="work_item">
+                    <a href="web_site/introduce/index.html" target=”_blank” class="works_link"><img src="img/works-thumbnail/introsuce.jpg" alt="" class="works_web"></a>
+                    <p class="works_description">学び始めて１ヶ月の頃作った自己紹介ページです。成長が分かるように拙い部分も当時のまま載せています。</p>
+                </div>
+                <div class="work_item">
+                    <a href="web_site/Kenkoudou/index.html" target=”_blank” class="works_link"><img src="img/works-thumbnail/kenkou.jpg" alt="" class="works_web"></a>
+                    <p class="works_description">架空の旅行会社のホームページを作りました。【JQuery】
+                    </p>
+                </div>
+
+                
+                <div class="work_item">
+                    <a href="web_site/hana-zoo/index.html" target=”_blank” class="works_link"><img src="img/works-thumbnail/zoo.jpg" alt="" class="works_web"></a>
+                    <p class="works_description">学校の課題でhtml(CSS)を組みました。</p>
+                </div>
+                <div class="work_item">
+                    <a href="web_site/wine/index.html" target=”_blank” class="works_link"><img src="img/works-thumbnail/wine.jpg" alt="" class="works_web"></a>
+                    <p class="works_description">学校の課題でhtml(CSS)を組みました。</p>
+                </div>
+                <div class="work_item">
+                    <a href="web_site/hana-aquarium/index.html" target=”_blank” class="works_link"><img src="img/works-thumbnail/aqua.jpg" alt="" class="works_web"></a>
+                    <p class="works_description">学校の課題でhtml(CSS)を組みました。</p>
+                </div>
+            </div>
+
+            <h3 class="works">Graphic Design</h3>
+            <div class="design_box1">
+                <div class="design_item">
+                    <a href="img/works-design/cat_bag.png" rel="lightbox" class="works_link"><img src="img/works-thumbnail/cat-item.jpg" alt="" class="works_design"></a>
+                    <p class="works_description">ECサイトの商品ページ風。<br>photoshopで作りました。</p>
+                </div>
+                <div class="design_item">
+                    <a href="img/works-design/hidamariE.png" target=”_blank” class="works_link"><img src="img/works-thumbnail/hidamari.jpg" alt="" class="works_design"></a>
+                    <p class="works_description">グループワークで結成したチームの紹介ページを作りました。（別タブで開きます。非html)</p>
+                </div>
+                <div class="design_item">
+                    <a href="img/works-design/cat_bag.png" rel="lightbox" class="works_link"><img src="img/works-thumbnail/cat-item.jpg" alt="" class="works_design"></a>
+                    <p class="works_description">ECサイトの商品ページ風。<br>photoshopで作りました。</p>
+                </div>
+            </div>
+
+            <div class="design_box2">
+                <div class="banner_item">
+                    <a href="img/works-design/Autumn_Sale.png" rel="lightbox" class="works_link"><img src="img/works-thumbnail/banner1.jpg" alt="" class="works_design"></a>
+                    <p class="works_description">ショッピングサイトバナー風。<br>Illustratorで描きました。</p>
+                </div>
+                <div class="banner_item">
+                    <a href="img/works-design/beer.png" rel="lightbox" class="works_link"><img src="img/works-thumbnail/banner3.jpg" alt="" rel="lightbox" class="works_design"></a>
+                    <p class="works_description">学校の授業で描きました。</p>
+                </div>
+                <div class="banner_item">
+                    <a href="img/works-design/cafe_chiket.png" rel="lightbox" class="works_link"><img src="img/works-thumbnail/banner2.jpg" alt="" class="works_design"></a>
+                    <p class="works_description">学校の授業で描きました。</p>
+                </div>
+            </div>
+
+            <div class="design_box3">
+                <div class="design_item2">
+                    <a href="img/works-design/hana_cleaner.png" rel="lightbox" class="works_link"><img src="img/works-thumbnail/hana-chan.jpg" alt="" class="works_design"></a>
+                    <p class="works_description">学校の除菌スプレーラベルのコンペ用に描きました。</p>
+                </div>
+                <div class="design_item2">
+                    <a href="img/works-design/uganda.jpg" rel="lightbox" class="works_link"><img src="img/works-thumbnail/uganda.jpg" alt="" class="works_design"></a>
+                    <p class="works_description">学校の課題。Photoshopで描いたものです。</p>
+                </div>
+                <div class="design_item2">
+                    <a href="img/works-design/meishi.png" rel="lightbox" class="works_link"><img src="img/works-thumbnail/meishi.jpg" alt="" class="works_design"></a>
+                    <p class="works_description">学んで１ヶ月の頃に作リました。なんちゃって名刺です。</p>
+                </div>
+                <div class="design_item2">
+                    <a href="img/works-design/html_memo2.png" rel="lightbox" class="works_link"><img src="img/works-thumbnail/html-memo.jpg" alt="" class="works_design"></a>
+                    <p class="works_description">htmlのテスト前にIllustratorの練習を兼ねて描いたメモです。</p>
+                </div>
+
+                <div class="design_item2">
+                    <a href="img/works-design/vagetable_face.png" rel="lightbox" class="works_link"><img src="img/works-thumbnail/vagetable.jpg" alt="" class="works_design"></a>
+                    <p class="works_description">Photoshopの練習で、野菜を切り抜き顔を作ってみました。</p>
+                </div>
+            </div>
+        </div>
+        <!-- 作品集 -->
+
+        <!-- 隙間背景 -->
+    </div>
+    <!-- 隙間背景 -->
+
+    <!-- スキル -->
+    <div class="wrapper" id="skill">
+        <h2><img src="logo/skill.svg" alt="skill" class="content_title"></h2>
+        <div class="skill_flex">
+            <div class="flex_item">
+                <img src="img/skill/design.png" alt="" class="skill_img">
+                <h3 class="item_title">デザイン</h3>
+                <p class="skill_description">Illustrator<br>Photoshop</p>
+            </div>
+            <div class="flex_item">
+                <img src="img/skill/code.png" alt="" class="skill_img">
+                <h3>コーディング</h3>
+                <p class="skill_description">html<br>css<br>Javascript</p>
+            </div>
+
+            <div class="flex_item">
+                <img src="img/skill/movie.png" alt="" class="skill_img">
+                <h3 class="item_title">動画編集</h3>
+                <p class="skill_description">Premiapro</p>
+            </div>
+        </div>
+
+        <article class="skill_school">
+            <h3>■学校で学んだ内容</h3>
+            <img src="img/skill/skill_list.png" alt="学校で学んだ一覧">
+        </article>
+        <article class="skill_school">
+            <h3>■使用した教科書</h3>
+            <img src="img/skill/skill_book.png" alt="使用教科書一覧">
+        </article>
+
+    </div>
+    <!-- スキル-->
+
+    <!-- 隙間背景 -->
+    <div class="back"></div>
+
+    <div class="wrapper" id="contact">
+        <h2><img src="logo/contact.svg" alt="contact" class="content_title"></h2>
+        <form action="#">
+            <p class="form_title">お名前<br>
+                <input type="text" name="name"></p>
+            <p class="form_title">メールアドレス<br>
+                <input type="email" name="mail"></p>
+            <p class="message">メッセージ</p>
+            <textarea name="message" id="message"></textarea>
+
+            <p class="submit"><input type="image" src="img/btn.png" class="submit_btn"></p>
+        </form>
+
+
+        <p>何かございましたら下記メールアドレスまでご連絡ください。<br>happyapple2060@yahoo.co.jp</p>
+    </div>
+    <!-- 隙間背景 -->
+    <div class="back">
+        <footer><small class="copy">&copy;Lina Suzuki</small></footer>
+    </div>
+    <!-- 隙間背景 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

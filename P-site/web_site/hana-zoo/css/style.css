@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+/* 共通設定 */
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: #ccffcc;
+}
+
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    opacity: .6;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 16px;
+}
+
+.bg_color {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+/* ヘッダー */
+.titlebaner {
+    width: 390px;
+    height: auto;
+}
+
+.big-bg {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 822px;
+}
+
+.header_flex {
+    text-align: center;
+    background-image: url(../img/nav-bg.jpg);
+    background-repeat: repeat;
+    padding: 0 3em;
+}
+
+.g_navi {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.main_content {
+    width: 90%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.741);
+    border-radius: 8px;
+    margin: 10% auto;
+    padding: 1em;
+}
+
+.main_text {
+    font-weight: bold;
+    color: #442200;
+    margin-bottom: 1em;
+    font-size: 26px;
+}
+
+button {
+    text-align: center;
+    background-color: #336600;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 18px;
+}
+
+.gnavi_item {
+    font-weight: bold;
+    font-size: 20px;
+    color: #336600;
+}
+
+li+li{
+    margin-left: 1em;
+}
+
+.animal_content {
+    margin: 1.5em 30px 3em 30px;
+}
+
+/* ニュース */
+h2 {
+    background-image: url(../img/nav-bg.jpg);
+    background-repeat: repeat;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+
+.news_text{
+    margin-left: 4em;
+}
+
+
+/* イベント*/
+.event_item {
+    text-align: center;
+}
+
+.season {
+    color: red;
+    font-size: 18px;
+}
+
+h3 {
+    margin: 0.5em 0;
+    font-size: 26px;
+}
+
+h3:nth-of-type(1){
+    margin-top: 0;
+}
+
+.p_event {
+    margin-bottom: 1.5em;
+}
+
+/*about */
+.about_content {
+    padding: 2em 20%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 2px solid #fff;
+    padding: 0.5em;
+    font-size: 16px;
+}
+
+th {
+    text-align: center;
+    background-color: #ffcc66;
+}
+
+td {
+    text-align: right;
+    background-color: #f3efef;
+    padding-left: 2em;
+}
+
+footer {
+    background-image: url(../img/footer.png);
+    background-repeat: repeat-x;
+    display: block;
+    text-align: center;
+    height: 150px;
+    padding: 60px;
+}
+
+.copy {
+    font-size: 16px;
+    margin-bottom: 3em;
+}
+
+/* PC版 */
+@media(min-width: 768px) {
+
+    img {
+        max-width: 100%;
+    }
+
+    .wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .header_flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .titlebaner {
+        margin-top: 0.5em;
+    }
+
+    .gnavi_item {
+        margin-top: 30px;
+    }
+
+    .main_content {
+        margin-top: 1em;
+    }
+
+    h2 {
+        margin-top: 2em;
+    }
+
+    .event_item {
+        width: 48%;
+        height: auto;
+    }
+
+    .event_grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .about_content {
+        padding: 2em;
+        display: flex;
+    }
+
+    .about_content div:nth-child(1) {
+        margin-right: 4em;
+    }
+
+}
