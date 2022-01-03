@@ -238,6 +238,16 @@ works
     transition-duration: 0.2s;
 }
 
+.orange{
+    color: rgb(242, 125, 35);
+    font-weight: bold;
+}
+
+.blue{
+    color: rgb(17, 43, 148);
+    font-weight: bold;
+}
+
 /*===================
 スキル
 ====================*/
