@@ -351,6 +351,11 @@ PC版
     }
 
     .wrapper_works {
+        width: 80%;
+        padding: 2em;
+    }
+
+    .wrapper_works {
         max-width: 900px;
     }
 
